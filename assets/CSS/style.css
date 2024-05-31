@@ -1,0 +1,8 @@
+/* Hero section */
+
+.header_bgImg {
+    background-image: url("../Images/PNG/hero-sec-backimg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
