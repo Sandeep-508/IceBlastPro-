@@ -6,3 +6,239 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.location-svg-icon {
+    width: 24px;
+    height: 24px;
+    padding: 5.17px 7.2px 5.17px 7.2px;
+    border-radius: 72px;
+    background: var(--orange-clr);
+    border-radius: 50%;
+}
+
+.gap_media_loc {
+    gap: 10px;
+}
+
+.move {
+    width: 1140px;
+    margin: 10px -400px;
+    animation: nav_move 4s infinite linear;
+}
+
+.move:hover {
+    animation-play-state: paused;
+}
+
+@keyframes nav_move {
+    0% {
+        margin-left: 400px;
+    }
+
+    100% {
+        margin-left: -800px;
+    }
+}
+
+.link-hover:hover {
+    opacity: 100%;
+}
+
+.min-vh-lg-100 {
+    min-height: 100vh;
+}
+
+.-mt-5px {
+    margin-top: -5px;
+}
+
+/* NavBar */
+
+.navBar-changes {
+    background: var(--color-white);
+    border-radius: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.navLinkHover {
+    color: var(--text-light-clr);
+}
+
+.navLinkHover:hover {
+    color: var(--orange-clr);
+    -webkit-text-stroke: thin;
+}
+
+.gap-media-navLink {
+    gap: 24px;
+}
+
+.btns {
+    padding: 20px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 26.2px 0px var(--drop-shadow);
+    background: var(--orange-clr);
+    border-radius: 84px;
+    transition: all 300ms linear;
+}
+
+.btns:hover {
+    background: var(--color-white);
+    border: 1px solid var(--orange-clr);
+    color: var(--orange-clr) !important;
+    box-shadow: inset 0 0 12px;
+}
+
+.d_none {
+    display: none;
+}
+
+/* Main Content */
+
+.max-w-hero-main-text {
+    max-width: 730px;
+}
+
+.pt-hero {
+    padding-top: 87px;
+}
+
+.my-media-sub-text-hero {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.prop-box {
+    max-width: 544px;
+    padding: 22.39px 51.33px 22.39px 51px;
+    border-radius: 16px;
+    background: var(--pro-box-clr);
+    backdrop-filter: blur(22px);
+    margin-top: 40px;
+}
+
+.tick-box {
+    width: 26.22px;
+    height: 26.22px;
+    padding: 8.61px 6.22px 8.61px 6px;
+    background: var(--orange-clr);
+    border-radius: 50%;
+}
+
+.gap-media-prop {
+    gap: 12px;
+}
+
+.ps-lg-media {
+    padding-left: 28px;
+}
+
+
+/* About Us Section */
+
+.back_layer_about {
+    background-image: url(../Images/PNG/about-us-layer.png);
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+}
+
+.w-h-about-img {
+    width: 100%;
+    height: 592px;
+}
+
+.py-about-us {
+    padding-top: 76px;
+}
+
+.change_z_ind {
+    z-index: -10;
+}
+
+.text-clr {
+    color: var(--text-clr);
+}
+
+.max-w-about-main-text {
+    max-width: 351px;
+}
+
+.img_scale_hover {
+    transition: all 300ms linear;
+}
+
+.img_scale_hover:hover {
+    scale: 1.1;
+}
+
+.my-media-btm-text {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.pos-cloud-bottom-about {
+    bottom: 0;
+    left: 0;
+}
+
+.w-h-change-cloud {
+    height: 264px;
+}
+
+.w-h-change-cloud-2 {
+    height: 342px;
+}
+
+.bg-about-clr {
+    background: var(--orange-clr);
+}
+
+/* dry ice blasting Section */
+
+.py-blast-col {
+    padding-top: 137px;
+    padding-bottom: 271px;
+}
+
+.pos-dry-ice-blast {
+    right: 0;
+    top: 114px;
+    height: 439px;
+    position: absolute;
+    max-width: 650px;
+}
+
+.pos-dry-ice-blast-2 {
+    left: 0;
+    height: 439px;
+    bottom: 87px;
+    position: absolute;
+    width: 650px;
+}
+
+.py-blast-col-2 {
+    padding-bottom: 200px;
+}
+
+
+/* why choose us Section */
+
+.wh-choose-sec-sm-img {
+    width: 70px;
+    height: 70px;
+}
+
+.gap-media-choose-text {
+    gap: 12px;
+}
+
+.mt-media-text-choose {
+    margin-top: 28px;
+}
+
+/* slider */
+
