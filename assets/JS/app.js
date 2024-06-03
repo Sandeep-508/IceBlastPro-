@@ -55,3 +55,5 @@ video.forEach(e => {
         e.closest(".video_box").lastElementChild.classList.add("z-2");
     });
 });
+
+// accoridon

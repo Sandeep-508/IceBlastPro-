@@ -293,8 +293,49 @@
     margin-bottom: 34px;
 }
 
+/* let's talk number section */
+
+.max-w-number-sec {
+    max-width: 759px;
+}
+
+
+
 /* Latest Work section */
 
 .pb-media-latest-text {
     padding-bottom: 58px;
 }
+
+
+/* slider
+
+.slider-item {
+    height: 384px;
+    transition: transform 0.5s ease;
+    margin: 0 -10px;
+}
+
+.slick-slide {
+    margin: 0 -60px;
+}
+
+.slick-list {
+    margin: 0 60px;
+    padding: 0 20%;
+    overflow: hidden;
+}
+
+.slick-current>div img {
+    width: 509px !important;
+    height: 434px !important;
+}
+
+.slick-slide.slick-current .slider-item {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.slick-slide:not(.slick-current) {
+    z-index: -1;
+} */
