@@ -57,3 +57,28 @@ video.forEach(e => {
 });
 
 // accoridon
+
+let accordion = document.querySelectorAll(".click-btn");
+
+accordion.forEach(a => {
+    a.addEventListener("click", () => {
+        let b = document.querySelector(".accordion-items.active-accord");
+        a.parentElement.classList.toggle("active-accord");
+        b && b.classList.remove("active-accord");
+    });
+});
+
+
+let svg_icon_2 = document.querySelectorAll(".svg_icon_2");
+let svg_icon_3 = document.querySelectorAll(".svg_icon_3");
+
+svg_icon_2.forEach(e => {
+    e.addEventListener("click", () => {
+        e.parentElement.classList.remove("active-accord");
+    });
+});
+svg_icon_3.forEach(e => {
+    e.addEventListener("click", () => {
+        e.parentElement.classList.remove("active-accord");
+    });
+});
