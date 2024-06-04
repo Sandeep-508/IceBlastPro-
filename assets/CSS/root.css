@@ -664,6 +664,10 @@ a {
         display: none !important;
     }
 
+    .sub-box-changes {
+        padding: 37px 12px;
+    }
+
     .gap-media-accordion {
         gap: 24px;
     }
@@ -679,6 +683,15 @@ a {
 
     .active-accord .disp_text {
         display: flex !important;
+    }
+
+    .fs-sub-text-main {
+        font-size: var(--fs-25);
+        line-height: var(--lh-150);
+    }
+
+    .max-w-sub-box-text {
+        max-width: 600px;
     }
 
     .active-accord .svg_icon {
@@ -928,8 +941,17 @@ a {
         padding-right: 24px;
     }
 
+    .fs-sub-text-main {
+        font-size: var(--fs-23);
+        line-height: var(--lh-150);
+    }
+
     .gap-media-accordion {
         gap: 16px;
+    }
+
+    .pr-media-acc-head-1 {
+        padding-right: 24px;
     }
 
     .fs-accordion-main-text {

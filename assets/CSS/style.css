@@ -334,6 +334,14 @@
 }
 
 .click-btn {
+    cursor: pointer !important;
+}
+
+.pr-media-acc-head-1 {
+    padding-right: 48px;
+}
+
+.svg_icon_2 {
     cursor: pointer;
 }
 
