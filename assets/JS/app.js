@@ -49,6 +49,8 @@ menuicon.addEventListener("click", () => {
     }
 });
 
+// video play
+
 let video = document.querySelectorAll(".video_play");
 video.forEach(e => {
     e.addEventListener("click", () => {
@@ -83,6 +85,8 @@ svg_icon_3.forEach(e => {
     });
 });
 
+// radio btn
+
 let radio_btn = document.querySelector(".radio-active");
 let radio_box = document.querySelector(".radio-tick-img");
 let radio_sq_box = document.querySelector(".radio-box");
@@ -93,4 +97,34 @@ radio_btn.addEventListener("click", () => {
 
 radio_sq_box.addEventListener("click", () => {
     radio_box.classList.toggle("active-radio");
+});
+
+// preloader
+
+// let preloader = document.querySelector(".preloader");
+// body.classList.add("overflow-hidden");
+
+// setTimeout(() => {
+//     preloader.classList.add("top-105");
+//     body.classList.remove("overflow-hidden");
+// }, 3000)
+
+// scroll to top
+
+let scroll_btn = document.querySelector(".scroll_top");
+let scroll_pt = 200;
+
+scroll_btn.classList.add("d-none");
+window.addEventListener("scroll", () => {
+    if (window.scrollY > scroll_pt) {
+        scroll_btn.classList.remove("d-none");
+    } else {
+        scroll_btn.classList.add("d-none");
+    }
+    scroll_btn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    });
 });
