@@ -82,3 +82,15 @@ svg_icon_3.forEach(e => {
         e.parentElement.classList.remove("active-accord");
     });
 });
+
+let radio_btn = document.querySelector(".radio-active");
+let radio_box = document.querySelector(".radio-tick-img");
+let radio_sq_box = document.querySelector(".radio-box");
+
+radio_btn.addEventListener("click", () => {
+    radio_box.classList.toggle("active-radio");
+});
+
+radio_sq_box.addEventListener("click", () => {
+    radio_box.classList.toggle("active-radio");
+});
