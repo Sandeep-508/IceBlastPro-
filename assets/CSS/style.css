@@ -283,6 +283,10 @@
     border: 4px solid var(--brdr-light-white);
 }
 
+.pb-media-about-sec {
+    padding-bottom: 2px;
+}
+
 .brdr-img-team-pos {
     width: 544px !important;
     height: 720px !important;
