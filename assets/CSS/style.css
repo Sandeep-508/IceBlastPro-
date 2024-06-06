@@ -285,8 +285,8 @@
 
 .brdr-img-team-pos {
     width: 544px !important;
-    height: 818px !important;
-    left: -10%;
+    height: 720px !important;
+    left: -12%;
     top: -27%;
     z-index: 0;
 }
@@ -386,6 +386,9 @@
 }
 
 /* Latest Work section */
+.-mt-1px {
+    margin-top: -1px;
+}
 
 .pb-media-latest-text {
     padding-bottom: 58px;
@@ -399,10 +402,6 @@
     border-radius: 24px;
     overflow: hidden;
     position: relative;
-}
-
-.swiper-3d {
-    perspective: 975px !important;
 }
 
 .swiper-slide-next::after {

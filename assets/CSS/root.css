@@ -686,6 +686,10 @@ a {
         display: none;
     }
 
+    .swiper-3d {
+        perspective: 975px !important;
+    }
+
     .svg_icon_3 {
         display: none !important;
     }
@@ -735,8 +739,16 @@ a {
         display: none !important;
     }
 
+    .max-w-team-cont {
+        max-width: 768px;
+    }
+
     .input-sub-sec {
         width: 55%;
+    }
+
+    .swiper-3d {
+        perspective: 1140px !important;
     }
 
     .container_team {
@@ -905,6 +917,10 @@ a {
         position: relative;
         z-index: 11;
         cursor: pointer;
+    }
+
+    .max-w-team-cont {
+        max-width: 576px;
     }
 
     .menuicon span:nth-child(1) {
