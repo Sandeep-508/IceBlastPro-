@@ -287,6 +287,10 @@
     padding-bottom: 2px;
 }
 
+.py-header {
+    padding-bottom: 100px;
+}
+
 .brdr-img-team-pos {
     width: 544px !important;
     height: 720px !important;
