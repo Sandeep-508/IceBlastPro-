@@ -101,13 +101,13 @@ radio_sq_box.addEventListener("click", () => {
 
 // preloader
 
-// let preloader = document.querySelector(".preloader");
-// body.classList.add("overflow-hidden");
+let preloader = document.querySelector(".preloader");
+body.classList.add("overflow-hidden");
 
-// setTimeout(() => {
-//     preloader.classList.add("top-105");
-//     body.classList.remove("overflow-hidden");
-// }, 3000)
+setTimeout(() => {
+    preloader.classList.add("top-105");
+    body.classList.remove("overflow-hidden");
+}, 3000)
 
 // scroll to top
 

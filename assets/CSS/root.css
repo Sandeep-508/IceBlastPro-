@@ -632,7 +632,7 @@ a {
         border: 1px solid var(--color-white);
         transition: all 300ms linear;
         position: absolute;
-        left: -38px;
+        left: -75px;
         top: 57%;
     }
 
@@ -644,7 +644,7 @@ a {
         border: 1px solid var(--color-white);
         transition: all 300ms linear;
         position: absolute !important;
-        right: -38px !important;
+        right: -75px !important;
         top: 57%;
     }
 
@@ -719,6 +719,14 @@ a {
 
     .pb-media-team {
         padding-bottom: 0px;
+    }
+
+    .swiper-button-prev {
+        left: -35px;
+    }
+
+    .swiper-button-next {
+        right: -35px !important;
     }
 }
 
