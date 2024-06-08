@@ -919,6 +919,10 @@ a {
         max-width: 576px;
     }
 
+    .p-accordion {
+        padding: 16px;
+    }
+
     .menuicon span:nth-child(1) {
         background: var(--orange-clr);
         width: 70%;
