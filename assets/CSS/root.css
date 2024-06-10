@@ -954,6 +954,10 @@ a {
         cursor: pointer;
     }
 
+    .swiper-3d {
+        perspective: 1360px !important;
+    }
+
     .mail-list-box {
         border-radius: 16px;
     }
