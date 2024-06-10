@@ -475,6 +475,9 @@
     filter: none;
 }
 
+.h-change {
+    height: 101%;
+}
 
 .gallery-slide.swiper-slide-active::after {
     background: transparent !important;
@@ -532,7 +535,7 @@
 /* team section */
 
 .pb-media-team {
-    padding-bottom: 150px;
+    padding-bottom: 105px;
 }
 
 .container_team {
@@ -666,9 +669,9 @@
 }
 
 /* mail list section */
-.mt-sub-box-insight {
+/* .mt-sub-box-insight {
     margin-top: 80px;
-}
+} */
 
 .px-media-mail-sec {
     padding-right: 18px;

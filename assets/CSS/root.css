@@ -603,6 +603,10 @@ a {
     opacity: 90%;
 }
 
+.outline-none {
+    outline: none;
+}
+
 /* Media Queries */
 
 @media (min-width: 1200px) {
@@ -610,10 +614,6 @@ a {
         animation: none;
         margin: 0;
         width: 100%;
-    }
-
-    .h-change {
-        height: 101%;
     }
 
     .swiper-button-prev::after {
@@ -667,6 +667,32 @@ a {
     }
 }
 
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .pos-dry-ice-blast {
+        width: 700px;
+        max-width: fit-content;
+    }
+
+    .pos-dry-ice-blast-2 {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .pos-dry-ice-blast {
+        position: unset;
+    }
+
+    .pos-dry-ice-blast-2 {
+        position: unset;
+        width: auto;
+    }
+
+    .h-min-xxxl {
+        min-height: 80vh !important;
+    }
+}
+
 @media (max-width: 1200px) {
     .pos-dry-ice-blast {
         max-width: 500px !important;
@@ -674,10 +700,6 @@ a {
 
     .pos-dry-ice-blast-2 {
         max-width: 500px !important;
-    }
-
-    .h-change {
-        height: 100%;
     }
 }
 
@@ -741,6 +763,10 @@ a {
 
     .max-w-team-cont {
         max-width: 768px;
+    }
+
+    .h-bts-sec {
+        min-height: 80vh !important;
     }
 
     .input-sub-sec {
@@ -819,6 +845,7 @@ a {
     }
 
     .w-h-bts-img {
+        width: 100%;
         height: 398px;
     }
 
@@ -831,7 +858,7 @@ a {
     }
 
     .max-w-choose-sec {
-        max-width: 768px;
+        max-width: 650px;
     }
 
     .py-blast-col-2 {
@@ -915,9 +942,9 @@ a {
         cursor: pointer;
     }
 
-    .max-w-team-cont {
-        max-width: 576px;
-    }
+    /* .max-w-team-cont {
+        max-width: 650px;
+    } */
 
     .p-accordion {
         padding: 16px;
@@ -1080,6 +1107,10 @@ a {
         padding-left: 24px;
         padding-right: 24px;
     }
+
+    /* .h-change {
+        height: 100%;
+    }    */
 
     .pb-media-latest-text {
         padding-bottom: 24px;
