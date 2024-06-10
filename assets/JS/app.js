@@ -128,3 +128,9 @@ window.addEventListener("scroll", () => {
         });
     });
 });
+
+AOS.init(
+    {
+        // once: true,
+    }
+);
