@@ -761,8 +761,16 @@ a {
         display: none !important;
     }
 
+    .max-w-about-main-text {
+        max-width: 100%;
+    }
+
     .max-w-team-cont {
         max-width: 768px;
+    }
+
+    .mail-list-box {
+        border-radius: 24px;
     }
 
     .h-bts-sec {
@@ -775,6 +783,10 @@ a {
 
     .swiper-3d {
         perspective: 1140px !important;
+    }
+
+    .w-change-team-sec {
+        width: 80% !important;
     }
 
     .container_team {
@@ -875,7 +887,7 @@ a {
     }
 
     .max-w-about-us-cont {
-        max-width: 768px;
+        max-width: 650px;
     }
 
     .d-max-lg-none {
@@ -940,6 +952,10 @@ a {
         position: relative;
         z-index: 11;
         cursor: pointer;
+    }
+
+    .mail-list-box {
+        border-radius: 16px;
     }
 
     /* .max-w-team-cont {
@@ -1108,6 +1124,15 @@ a {
         padding-right: 24px;
     }
 
+    .my-media-lg {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .w-change-team-sec {
+        width: 100% !important;
+    }
+
     /* .h-change {
         height: 100%;
     }    */
@@ -1157,7 +1182,7 @@ a {
     }
 
     .w-h-bts-img {
-        height: 320px;
+        height: 260px;
     }
 
     .c-compare::after {

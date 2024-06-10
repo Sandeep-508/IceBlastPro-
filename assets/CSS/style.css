@@ -2,7 +2,7 @@
 
 .header_bgImg {
     background-image: url("../Images/PNG/hero-sec-backimg.png");
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -23,7 +23,7 @@
 .move {
     width: 1140px;
     margin: 10px -400px;
-    animation: nav_move 4s infinite linear;
+    animation: nav_move 10s infinite linear;
 }
 
 .move:hover {
@@ -81,7 +81,7 @@
 }
 
 .btns {
-    padding: 20px;
+    padding: 17px 22px;
     border: 1px solid transparent;
     box-shadow: 0px 0px 26.2px 0px var(--drop-shadow);
     background: var(--orange-clr);
@@ -711,9 +711,9 @@
     width: 70%;
 }
 
-.input-box-btn {
+/* .input-box-btn {
     padding: 20px 22.5px;
-}
+} */
 
 .mt-media-radio-btn {
     margin-top: 20px;
@@ -722,7 +722,7 @@
 .radio-box {
     width: 23px;
     height: 22px;
-    padding: 5px;
+    padding: 11px;
     border-radius: 4px;
     border: 0.5px solid var(--color-white);
 }
