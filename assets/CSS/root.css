@@ -674,7 +674,7 @@ a {
     }
 
     .pos-dry-ice-blast-2 {
-        width: 700px;
+        width: 660px;
     }
 }
 
@@ -690,6 +690,10 @@ a {
 
     .h-min-xxxl {
         min-height: 80vh !important;
+    }
+
+    .back_layer_about {
+        background-size: 100% 100%;
     }
 }
 
